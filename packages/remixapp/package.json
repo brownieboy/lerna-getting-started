@@ -5,7 +5,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev",
+    "dev": "DEV_CACHE=false remix dev",
     "start": "remix-serve build",
     "test": "jest"
   },
