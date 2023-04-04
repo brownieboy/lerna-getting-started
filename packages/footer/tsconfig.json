@@ -3,7 +3,10 @@
     "jsx": "react",
     "allowJs": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "outDir": "dist",
+    "declaration": true
   },
   "files": [],
   "include": [],
