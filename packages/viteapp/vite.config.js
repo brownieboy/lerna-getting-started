@@ -7,4 +7,13 @@ export default defineConfig({
   resolve: {
     preserveSymlinks: true,
   },
+  optimizeDeps: {
+    exclude: ["footer"],
+  },
+  server: {
+    port: 5173,
+    watch: {
+      ignored: ["!**/node_modules/footer/**"],
+    },
+  },
 })
