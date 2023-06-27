@@ -9,6 +9,7 @@ packages/remixapp/public/build
 
 
 # Ignore yarn generated files
-.yarn
+.yarn/cache
+.yarn/install-state.gz
 yarn-error.log
 
