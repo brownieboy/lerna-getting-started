@@ -9,7 +9,11 @@
   },
   "scripts": {
     "build:viteapp": "lerna run build --scope=viteapp",
+    "start:viteapp": "concurrently 'lerna run start --scope=viteapp' 'yarn watch:viteapp'",
     "watch:viteapp": "lerna watch --scope=viteapp --include-dependencies -- lerna run build --scope=\\$LERNA_PACKAGE_NAME"
   },
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.0",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
 }
