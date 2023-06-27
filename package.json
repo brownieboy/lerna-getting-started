@@ -8,6 +8,7 @@
     "lerna": "^7.1.0"
   },
   "scripts": {
+    "build:viteapp": "lerna run build --scope=viteapp",
     "watch:viteapp": "lerna watch --scope=viteapp --include-dependencies -- lerna run build --scope=\\$LERNA_PACKAGE_NAME"
   },
   "packageManager": "yarn@3.6.0"
