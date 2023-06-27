@@ -5,9 +5,10 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "lerna": "^7.1.0"
   },
   "scripts": {
-    "watch:viteapp" : "lerna watch --scope=viteapp --include-dependencies -- lerna run build --scope=\\$LERNA_PACKAGE_NAME"
-  }
+    "watch:viteapp": "lerna watch --scope=viteapp --include-dependencies -- lerna run build --scope=\\$LERNA_PACKAGE_NAME"
+  },
+  "packageManager": "yarn@3.6.0"
 }
