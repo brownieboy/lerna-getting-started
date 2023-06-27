@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     port: 5173,
     watch: {
-      ignored: ["!**/node_modules/footer/**", "!**/node_modules/footer/**"],
+      ignored: ["!**/node_modules/footer/**", "!**/node_modules/sub-footer/**"],
     },
   },
 })
